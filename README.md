@@ -2,6 +2,13 @@
 Inventory App which would allow a store to keep track of its inventory of products. The app will need to store information about price, quantity available, supplier, and a picture of the product. It will also need to allow the user to track sales and shipments and make it easy for the user to order more from the listed supplier.
 This project is part of udacity student nanodegree completion program.
 
+Learning components of this project :
+1. Storing information in a SQLite database
+2. Integrating Android’s file storage systems into that database
+3. Presenting information from files and SQLite databases to users
+4. Updating information based on user input.
+5. Creating intents to other apps using stored information.
+
 App has welcome screen activity with 3 different layouts which are skippable , moves forward and backward to next activity. Each alyout gives overview of the app usage for user which is shown only for first time use of application.
 Components of the each layout :
 1. ImageView of respective screen.
