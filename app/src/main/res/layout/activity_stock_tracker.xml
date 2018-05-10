@@ -83,7 +83,9 @@
                 style="@style/spinner_parent">
 
                 <!-- stock drop-down spinner -->
-                <Spinner style="@style/spinner_editor"/>
+                <Spinner 
+                         style="@style/spinner_editor"
+                         android:id="@+id/track_spinner_stock"/>
             </LinearLayout>
 
         </LinearLayout>
