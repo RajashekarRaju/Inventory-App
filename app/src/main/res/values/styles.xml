@@ -1,0 +1,265 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AddTaskTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/taskColorPrimary</item>
+        <item name="colorPrimaryDark">@color/taskColorPrimaryDark</item>
+    </style>
+
+    <style name="MainTitle_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ImageView_style">
+        <item name="android:layout_width">@dimen/width_150dp</item>
+        <item name="android:layout_height">@dimen/height_130dp</item>
+        <item name="android:padding">@dimen/padding_16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:src">@drawable/ic_laptop_mac_black_48px</item>
+    </style>
+
+    <style name="SubTitle_LinearLayout_Child">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MainTitle_textview_product">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingRight">@dimen/padding_40dp</item>
+        <item name="android:textColor">@color/colorDeepPurple</item>
+        <item name="android:textSize">@dimen/size_20sp</item>
+    </style>
+
+    <style name="ImageView_product">
+        <item name="android:layout_width">@dimen/width_100dp</item>
+        <item name="android:layout_height">@dimen/height_100dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/ic_laptop_mac_black_48px</item>
+        <item name="android:background">@drawable/container_box</item>
+    </style>
+
+    <style name="Units_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd" tools:targetApi="jelly_bean_mr1">true</item>
+        <item name="android:paddingRight">@dimen/padding_8dp</item>
+        <item name="android:paddingTop">@dimen/padding_16dp</item>
+    </style>
+
+    <style name="EditText_name_supplier">
+        <item name="android:layout_width">@dimen/no_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingLeft">@dimen/padding_4dp</item>
+    </style>
+
+    <style name="Units_parent_editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">number</item>
+        <item name="android:paddingLeft">@dimen/padding_4dp</item>
+    </style>
+
+    <style name="EditText_parent">
+        <item name="android:layout_width">@dimen/no_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <style name="LinearLayout_Main_Child">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="content_description_content_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/padding_16dp</item>
+        <item name="android:textColor">@color/colorDarkIndigo</item>
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+
+    <style name="No_Stock_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/padding_8dp</item>
+        <item name="android:textColor">@color/colorLightAsh</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="content_description_content_textview_edited">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/padding_16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+
+    <style name="Stock_Circle_Background">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/container_circle</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/padding_8dp</item>
+        <item name="android:layout_marginRight">@dimen/padding_8dp</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/size_20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Content_description_main">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+        <item name="android:textSize">@dimen/size_20sp</item>
+    </style>
+
+    <style name="offer_background_parent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="offer_background_texview">
+        <item name="android:layout_width">@dimen/width_50dp</item>
+        <item name="android:layout_height">@dimen/height_50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/padding_8dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/container_circle</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/colorLightAsh</item>
+    </style>
+
+    <style name="stock_in_out_left_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/size_20sp</item>
+    </style>
+
+    <style name="linear_layout_content_childs">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">@dimen/padding_8dp</item>
+    </style>
+
+    <style name="imageview_content_childs">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/padding_16dp</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/padding_16dp</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="imageview_share_sale_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/ripple_effect_button</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="offer_texview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/size_16sp</item>
+    </style>
+
+    <style name="textview_product_parent">
+        <item name="android:layout_width">@dimen/no_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:textColor">@color/colorDeepPurple</item>
+        <item name="android:textSize">@dimen/size_16sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="imageview_product_parent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingRight">@dimen/padding_28dp</item>
+    </style>
+
+    <style name="linear_layout_editor_childs">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">@dimen/padding_16dp</item>
+    </style>
+
+    <style name="spinner_editor">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/height_48dp</item>
+        <item name="android:paddingRight">@dimen/padding_16dp</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <style name="spinner_parent">
+        <item name="android:layout_width">@dimen/no_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextView_Slide_Secondary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:paddingLeft">@dimen/desc_padding</item>
+        <item name="android:paddingRight">@dimen/desc_padding</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/slide_desc</item>
+    </style>
+
+    <style name="TextView_Slide_Primary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/slide_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LinearLayout_slide_Main">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

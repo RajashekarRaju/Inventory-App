@@ -1,0 +1,250 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/clear_form"
+        style="@style/SubTitle_LinearLayout_Child"
+        android:padding="@dimen/padding_16dp">
+
+        <LinearLayout style="@style/linear_layout_editor_childs"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                style="@style/MainTitle_textview_product"
+                android:text="@string/product_image" />
+
+            <ImageView
+                android:id="@+id/track_product_image"
+                style="@style/ImageView_product"
+                android:onClick="onClickImageChoose"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_editor_childs">
+
+            <TextView
+                style="@style/textview_product_parent"
+                android:text="@string/product_name" />
+
+            <EditText
+                android:id="@+id/track_product_name"
+                style="@style/EditText_name_supplier"
+                android:hint="@string/product_name_hint" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_editor_childs">
+
+            <ImageView
+                style="@style/imageview_product_parent"
+                android:src="@drawable/ic_rupee"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                style="@style/textview_product_parent"
+                android:text="@string/product_cost" />
+
+            <RelativeLayout style="@style/EditText_parent">
+
+                <EditText
+                    android:id="@+id/track_product_rupee"
+                    style="@style/Units_parent_editText"
+                    android:hint="@string/enter_number"
+                    android:maxLines="6" />
+
+                <TextView
+                    style="@style/Units_textview"
+                    android:text="@string/rs" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/linear_layout_editor_childs">
+
+            <ImageView
+                style="@style/imageview_product_parent"
+                android:src="@drawable/ic_stock"
+                tools:ignore="ContentDescription" />
+
+            <!-- Label -->
+            <TextView
+                style="@style/textview_product_parent"
+                android:text="@string/product_stock" />
+
+            <!-- Input field -->
+            <LinearLayout
+                style="@style/spinner_parent">
+
+                <!-- stock drop-down spinner -->
+                <Spinner style="@style/spinner_editor"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_editor_childs">
+
+            <ImageView
+                style="@style/imageview_product_parent"
+                android:src="@drawable/ic_add_shopping_cart_black_24dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                style="@style/textview_product_parent"
+                android:text="@string/add_more_stock" />
+
+            <Button
+                android:id="@+id/track_increase_quantity"
+                android:layout_width="@dimen/quantity_button_size"
+                android:layout_height="@dimen/quantity_button_size"
+                android:layout_marginRight="@dimen/margin_8dp"
+                android:background="@drawable/ic_add_stock_24dp"
+                android:layout_marginEnd="@dimen/margin_8dp" />
+
+            <EditText
+                android:id="@+id/track_product_add_more"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_number"
+                android:inputType="number"
+                android:maxLength="3"
+                android:paddingLeft="@dimen/padding_4dp"
+                android:paddingStart="@dimen/padding_4dp"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/track_decrease_quantity"
+                android:layout_marginLeft="@dimen/margin_8dp"
+                android:layout_width="@dimen/quantity_button_size"
+                android:layout_height="@dimen/quantity_button_size"
+                android:background="@drawable/ic_remove_stock_24dp"
+                android:layout_marginStart="@dimen/margin_8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_editor_childs">
+
+            <ImageView
+                style="@style/imageview_product_parent"
+                android:src="@drawable/ic_local_offer_black_36dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                style="@style/textview_product_parent"
+                android:text="@string/product_offer_tracker" />
+
+            <RelativeLayout style="@style/EditText_parent">
+
+                <EditText
+                    android:id="@+id/track_product_offer"
+                    style="@style/Units_parent_editText"
+                    android:hint="@string/product_offer_hint"
+                    android:maxLength="3" />
+
+                <TextView
+                    style="@style/Units_textview"
+                    android:text="@string/percentage_symbol" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_editor_childs">
+
+            <ImageView
+                style="@style/imageview_product_parent"
+                android:src="@drawable/ic_supplier_36dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                style="@style/textview_product_parent"
+                android:inputType="text"
+                android:text="@string/product_supplier"
+                tools:ignore="TextViewEdits" />
+
+            <EditText
+                android:id="@+id/track_product_supplier"
+                style="@style/EditText_name_supplier"
+                android:hint="@string/product_supplier_hint" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_editor_childs">
+
+            <ImageView
+                style="@style/imageview_product_parent"
+                android:src="@drawable/ic_36dp_sale_data"
+                tools:ignore="ContentDescription" />
+
+            <!-- Label -->
+            <TextView
+                style="@style/textview_product_parent"
+                android:text="@string/product_sale_data" />
+
+            <!-- Input field -->
+            <LinearLayout style="@style/spinner_parent">
+
+                <!-- Gender drop-down spinner -->
+                <Spinner
+                    android:id="@+id/track_spinner_sale_data"
+                    style="@style/spinner_editor" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_editor_childs">
+
+            <ImageView
+                style="@style/imageview_product_parent"
+                android:src="@drawable/ic_review_customer_36dp"
+                tools:ignore="ContentDescription" />
+
+            <!-- Label -->
+            <TextView
+                style="@style/textview_product_parent"
+                android:text="@string/customer_review_track" />
+
+            <!-- Input field -->
+            <LinearLayout style="@style/spinner_parent">
+
+                <!-- Gender drop-down spinner -->
+                <Spinner
+                    android:id="@+id/track_spinner_customer_review"
+                    style="@style/spinner_editor" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_editor_childs">
+
+            <ImageView
+                style="@style/imageview_product_parent"
+                android:src="@drawable/ic_36dp_category"
+                tools:ignore="ContentDescription" />
+
+            <!-- Label -->
+            <TextView
+                style="@style/textview_product_parent"
+                android:text="@string/product_category" />
+
+            <!-- Input field -->
+            <LinearLayout style="@style/spinner_parent">
+
+                <!-- Gender drop-down spinner -->
+                <Spinner
+                    android:id="@+id/track_spinner_category"
+                    style="@style/spinner_editor" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

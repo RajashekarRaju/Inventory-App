@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="size_16sp">16sp</dimen>
+    <dimen name="size_20sp">20sp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30sp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="slide_desc">16sp</dimen>
+    <dimen name="no_width">0dp</dimen>
+    <dimen name="no_height">0dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="padding_28dp">28dp</dimen>
+    <dimen name="height_48dp">48dp</dimen>
+    <dimen name="width_150dp">150dp</dimen>
+    <dimen name="height_130dp">130dp</dimen>
+    <dimen name="width_36dp">36dp</dimen>
+    <dimen name="height_36dp">36dp</dimen>
+    <dimen name="width_100dp">100dp</dimen>
+    <dimen name="height_100dp">100dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+    <dimen name="width_50dp">50dp</dimen>
+    <dimen name="height_50dp">50dp</dimen>
+    <dimen name="padding_40dp">40dp</dimen>
+    <dimen name="radius_8dp">8dp</dimen>
+    <dimen name="radius_18dp">18dp</dimen>
+    <dimen name="quantity_button_size">40dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+</resources>

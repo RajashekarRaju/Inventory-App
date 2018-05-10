@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="taskColorPrimary">#CDDC39</color>
+    <color name="taskColorPrimaryDark">#AFB42B</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorDarkIndigo">#304FFE</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDeepPurple">#6200EA</color>
+    <color name="colorCardBackground">#8C9EFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorLightAsh">#E0E0E0</color>
+    <color name="colorYellow">#FFEB3B</color>
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+</resources>

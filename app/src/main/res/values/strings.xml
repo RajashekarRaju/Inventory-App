@@ -1,0 +1,168 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Inventory App</string>
+
+    <!-- Product Rating by user which can be good , bad , average -->
+    <string name="good">Good Product</string>
+    <string name="average">Average Product</string>
+    <string name="bad">Bad Product</string>
+
+    <!-- Product either can be in stock , out of stock -->
+    <string name="in_stock">In Stock</string>
+    <string name="no_stock">No Stock</string>
+
+    <!-- To identify whether material gets profit and loss -->
+    <string name="profit">Profit</string>
+    <string name="loss">Loss</string>
+    <string name="unknown">Unknown</string>
+
+    <!-- To categorise stock into electronics , clothes , video games -->
+    <string name="electronics">Electronics</string>
+    <string name="clothes">Clothes</string>
+    <string name="video_games">Video Games</string>
+
+    <!-- Assigning product with image from gallery -->
+    <string name="product_image">Product Image</string>
+
+    <!-- Assigning product with editable name entry-->
+    <string name="product_name">Product Name</string>
+    <!-- Assigning product with editable cost entry -->
+    <string name="product_cost">Product Cost</string>
+    <!-- Assigning product with editable stock entry -->
+    <string name="product_stock">Product Stock</string>
+    <!-- Assigning product with editable increase stock entry -->
+    <string name="add_more_stock">Increase Stock</string>
+    <!-- Assigning product with editable offer entry -->
+    <string name="product_offer_tracker">Product Offer</string>
+    <!-- Assigning product with editable supplier entry -->
+    <string name="product_supplier">Supplier</string>
+    <!-- Assigning product with editable sale data entry -->
+    <string name="product_sale_data">Sale Data</string>
+    <!-- Assigning product with editable customer review entry -->
+    <string name="customer_review">Customer Review -</string>
+    <!-- Assigning product with editable category entry -->
+    <string name="product_category">Category</string>
+
+    <!-- EditText fields with custom TextView hints for user to handle views -->
+    <string name="product_name_hint">Enter Product Name</string>
+    <string name="product_cost_hint">Product Cost</string>
+    <string name="product_supplier_hint">Supplier Name</string>
+    <string name="product_offer_hint">Enter Number</string>
+
+    <!-- Delete selected stock -->
+    <string name="delete">Delete</string>
+    <!-- Cancel deleting the selected stock -->
+    <string name="cancel">Cancel</string>
+    <!-- Dialog displaying options to delete or cancel deleting the stock -->
+    <string name="delete_dialog_msg">Delete This Stock ?</string>
+
+    <!-- Edited stock dialog message showing discard or editing changes -->
+    <string name="unsaved_changes_dialog_msg">Discard Your Changes And Quit Editing ?</string>
+    <!-- Discard edited changes -->
+    <string name="discard">Discard</string>
+    <!-- Do not discard the changes and keep editing -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Inserting the dummy stock for user practice -->
+    <string name="add_existing_stock">Insert Existing Stock</string>
+    <!-- Delete all the stock available in the store -->
+    <string name="action_delete_all_entries">Delete All Stock</string>
+    <!-- Dialog selectable options to delete entries -->
+    <string name="delete_dialog_msg_all">Delete All The Stock ?</string>
+
+    <!-- Deleting complete stock was not successful -->
+    <string name="delete_all_stock">There was error deleting stock</string>
+    <!-- Deleting complete stock was successful -->
+    <string name="delete_all_stock_successful">Deleted All Stock Successfully</string>
+
+    <!-- Adding New Stock To Store from editor -->
+    <string name="editor_activity_title_new_stock">Add New Stock To Store</string>
+    <!-- Editing available Stock in Store from editor -->
+    <string name="editor_activity_title_edit_stock">Edit Existing Stock</string>
+
+    <!-- Save edited or new added stock to store -->
+    <string name="action_save">Save</string>
+    <!-- Delete edited or new stock to store -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Deleting Stock Failed in the store -->
+    <string name="editor_delete_stock_failed">Deleting Stock Failed</string>
+    <!-- Deleting Stock was successful in the store -->
+    <string name="editor_delete_stock_successful">Deleted Stock Successfully</string>
+
+    <!-- adding new Stock was failed in the store -->
+    <string name="editor_insert_stock_failed">Adding New Stock Failed</string>
+    <!-- Adding new Stock was successful in the store -->
+    <string name="editor_insert_stock_successful">New Stock Added Successfully</string>
+    <!-- Updating Stock Information was failed in the store -->
+    <string name="editor_update_stock_failed">Updating Stock Information Failed</string>
+    <!-- Updating Stock Information was successful in the store -->
+    <string name="editor_update_stock_successful">Stock Infromation Updated Successfully</string>
+
+    <!-- Updating dummy product Stock Information in the store -->
+    <string name="product_name_demo_display">MacBook Air</string>
+    <!-- Updating dummy cost stock Information in the store -->
+    <string name="product_cost_demo_display">22,500</string>
+    <!-- Updating dummy offer cost stock Information in the store -->
+    <string name="product_offer">16% Off</string>
+
+    <!-- Store product description for all items -->
+    <string name="product_description">Product Description</string>
+
+    <!-- Updating empty store TextView Information in the store -->
+    <string name="add_stock_to_manage_inventory">Add Stock To Manage Inventory</string>
+    <!-- Updating empty stock Information in the store -->
+    <string name="store_is_empty">Store Is Empty</string>
+
+    <!-- Order more stock in to store from supplier -->
+    <string name="order_more_button">Order More</string>
+    <!-- Updating customer review Information in the store -->
+    <string name="customer_review_track">Customer Review</string>
+    <!-- Updating sale data stock Information in the store -->
+    <string name="sale_data">Sale Data -</string>
+    <!-- Updating category stock Information in the store -->
+    <string name="category">Category -</string>
+    <!-- Updating supplier stock Information in the store -->
+    <string name="supplier">Supplier -</string>
+    <!-- Updating supplier Information in the store to order request-->
+    <string name="cloud_tail">Cloud Tail</string>
+    <!-- Updating TextView price for product Information in the store -->
+    <string name="rupees">₹</string>
+    <!-- Increase stock availability from the supplier in the store -->
+    <string name="increase_stock">Stock Increased successfully</string>
+    <!-- show available number of stock Information in the store -->
+    <string name="left">Left</string>
+    <!-- Updating dummy available number of stock Information in the store -->
+    <string name="twenty_five_stock">25</string>
+    <!-- Updating dummy offer cost stock Information in the store -->
+    <string name="fifteen">15</string>
+    <!-- show TextView offer as off, stock Information in the store -->
+    <string name="offer">Off</string>
+    <!-- Hint for editor information in edittext fields -->
+    <string name="enter_number">Enter Number</string>
+    <!-- Symbol as units information for percentage in editor activity -->
+    <string name="percentage_symbol">%</string>
+    <!-- symbol units for price in editor activity in EditText fields -->
+    <string name="rs">Rs</string>
+    <!-- Next to move from first activty -->
+    <string name="next">NEXT</string>
+    <!-- Skip to destroy entire activity and skip to main activity -->
+    <string name="skip">SKIP</string>
+    <!-- Slide title description -->
+    <string name="slide_1_title">Track Your Earnings</string>
+    <!-- Slide title Content -->
+    <string name="slide_1_desc">Lets Track Your Earnings And Order Right Product For The Customers</string>
+    <!-- Slide title description -->
+    <string name="slide_2_title">Order More !?</string>
+    <!-- Slide title Content -->
+    <string name="slide_2_desc">Made Easy To Manage Your Stock And Supplies</string>
+    <!-- Slide title description -->
+    <string name="slide_3_title">Check Customer Reviews</string>
+    <!-- Slide title Content -->
+    <string name="slide_3_desc">Evaluate Your Products Quality And Customers Feedback</string>
+    <!-- Slide title Last -->
+    <string name="start">GOT IT</string>
+    <!-- Force user to fill all details -->
+    <string name="required">Field Required</string>
+
+</resources>

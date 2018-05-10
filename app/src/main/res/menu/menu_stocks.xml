@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StocksActivity">
+
+    <item
+        android:id="@+id/add_sample"
+        android:title="@string/add_existing_stock"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_all_stock"
+        android:title="@string/action_delete_all_entries"
+        app:showAsAction="never" />
+</menu>

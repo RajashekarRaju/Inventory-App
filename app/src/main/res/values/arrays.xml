@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array of words for spinner options customer review -->
+    <string-array name="array_customer_review_options">
+        <item>@string/good</item>
+        <item>@string/average</item>
+        <item>@string/bad</item>
+    </string-array>
+
+    <!-- Array of words for spinner options Stock Availability -->
+    <string-array name="array_stock_options">
+        <item>@string/in_stock</item>
+        <item>@string/no_stock</item>
+        <item>@string/unknown</item>
+    </string-array>
+
+    <!-- Array of words for spinner options Sale Data -->
+    <string-array name="array_sale_data_options">
+        <item>@string/profit</item>
+        <item>@string/loss</item>
+    </string-array>
+
+    <!-- Array of words for spinner options Product Category -->
+    <string-array name="array_category_options">
+        <item>@string/electronics</item>
+        <item>@string/clothes</item>
+        <item>@string/video_games</item>
+    </string-array>
+
+    <!-- Show current activity position using colors in array options for active dots -->
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <!-- Show current activity position using colors in array options for in-active dots -->
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+</resources>
